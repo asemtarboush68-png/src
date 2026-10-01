@@ -2,19 +2,7 @@
   "name": "aswad-al-tareeq",
   "version": "2.0.0",
   "private": true,
-  "description": "أسود الطريق - نظام إدارة الكباتن والطلبات والحسابات والعمولات",
-  "main": "src/server.js",
-  "scripts": {
-    "start": "node src/server.js || node server.js"
-  },
-  },
-  "engines": {
-    "node": ">=20"
-  },{
-  "name": "aswad-al-tareeq",
-  "version": "2.0.0",
-  "private": true,
-  "description": "أسود الطريق - نظام إدارة الكباتن والطلبات والحسابات والعمولات",
+  "description": "أسود الطريق",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js"
@@ -25,14 +13,6 @@
   "dependencies": {
     "cookie-parser": "^1.4.7",
     "dotenv": "^16.6.1",
-    "express": "^4.21.2",
-    "pg": "^8.13.1"
-  }
-}
-  "dependencies": {
-    "cookie-parser": "^1.4.7",
-    "dotenv": "^16.6.1",
-
     "express": "^4.21.2",
     "pg": "^8.13.1"
   }
